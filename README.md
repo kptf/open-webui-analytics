@@ -1,3 +1,17 @@
+# About the fork
+This is a fork of [taylorwilsdon/open-webui-analytics](https://github.com/taylorwilsdon/open-webui-analytics) with added `Dockerfile`.
+This repo here also features the `open-webui-analytics` docker image, so no need to build manually. Just use it in your compose file or pull it via:
+
+```bash
+docker pull ghcr.io/kptf/open-webui-analytics:latest
+```
+
+
+
+$${\color{red}what\ follows\ is\ the\ original\ README\ content}$$
+
+
+
 # Open WebUI Analytics
 
 A comprehensive analytics dashboard for [Open WebUI](https://github.com/open-webui/open-webui) that provides real-time insights into your AI assistant usage, user engagement, model performance, and tool utilization.
