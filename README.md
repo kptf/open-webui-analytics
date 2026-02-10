@@ -8,6 +8,17 @@ docker pull ghcr.io/kptf/open-webui-analytics:latest
 
 
 
+Also added `VITE_ALLOWED_HOSTS` environment variable to allow for other hosts than localhost. Use in docker-compose.yml as
+
+```yaml
+environment:
+  VITE_ALLOWED_HOSTS: "my.production-environment.com,localhost,127.0.0.1"
+```
+
+
+
+
+
 $${\color{red}what\ follows\ is\ the\ original\ README\ content}$$
 
 
